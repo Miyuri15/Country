@@ -39,7 +39,7 @@ const CountryPage = () => {
 
   if (loading) {
     return (
-      <div className="flex w-full justify-center items-center py-20">
+      <div className="flex w-screen min-h-screen justify-center items-center">
         <div
           role="status"
           className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"
@@ -50,7 +50,7 @@ const CountryPage = () => {
 
   if (error) {
     return (
-      <div className="text-center py-20">
+      <div className="text-center py-20 w-full">
         <p className="text-xl font-medium text-red-500">{error}</p>
       </div>
     );

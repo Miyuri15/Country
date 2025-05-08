@@ -52,16 +52,6 @@ const App = () => {
             />
           </Routes>
         </main>
-        <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-6 mt-12">
-          <div className="px-4 text-center text-gray-600 dark:text-gray-300">
-            {" "}
-            {/* Removed container and mx-auto */}
-            <p>
-              © {new Date().getFullYear()} Countries Explorer. All data provided
-              by REST Countries API.
-            </p>
-          </div>
-        </footer>
       </div>
     </Router>
   );

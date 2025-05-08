@@ -60,11 +60,11 @@ const Home = () => {
       </div>
 
       {loading ? (
-        <div className="flex justify-center items-center py-20">
+        <div className="flex justify-center items-center min-h-screen w-screen">
           <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"></div>
         </div>
       ) : filteredCountries.length === 0 ? (
-        <div className="text-center py-20">
+        <div className="text-center py-20 w-full">
           <p className="text-xl font-medium text-gray-600 dark:text-gray-300">
             No countries found. Try a different search or filter.
           </p>

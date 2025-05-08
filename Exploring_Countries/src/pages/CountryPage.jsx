@@ -40,7 +40,10 @@ const CountryPage = () => {
   if (loading) {
     return (
       <div className="flex w-full justify-center items-center py-20">
-        <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"></div>
+        <div
+          role="status"
+          className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"
+        ></div>
       </div>
     );
   }

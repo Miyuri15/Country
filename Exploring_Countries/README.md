@@ -1,12 +1,27 @@
-# React + Vite
+# Countries Explorer 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application to explore countries around the world, with dark mode support and detailed country information.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features ✨
+- Browse all countries with flags and basic info
+- Search countries by name
+- Filter by region (Africa, Americas, Asia, Europe, Oceania)
+- View detailed country information
+- Dark/Light mode toggle
+- Responsive design for all screen sizes
+- Smooth animations and transitions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used 🛠️
+- React.js
+- React Router
+- Tailwind CSS
+- React Icons (Feather Icons)
+- REST Countries API
+
+## Installation 💻
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Miyuri15/countries-explorer.git
